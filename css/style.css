@@ -253,12 +253,30 @@ fieldset{
 }
 
 .degustation__inner{
+    position: relative;
     border: 2px solid #C4C4C4;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.border__img-1{
+    position: absolute;
+    top: -130px;
+    left: 940px;
+}
+.border__img-2{
+    position: absolute;
+    top: -130px;
+    left: -125px;
+}
+
+.deg__legend{
+    font-size: 52px;
+    padding: 0 50px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .degustation__bar{
