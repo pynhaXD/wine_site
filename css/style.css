@@ -1,0 +1,384 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif; */
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    padding: 0;
+}
+
+h2{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+h3{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif
+}
+
+table{
+    border-collapse: collapse;
+}
+
+fieldset{
+    padding: 0;
+    margin: 0;
+}
+
+
+.header{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(/images/headimg.jpg);
+    color: #fff;
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.addres__info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.addres__info-text{
+    line-height: 19px;
+    padding: 30px 0 20px;
+}
+
+.menu__nav{
+    margin-bottom: 580px;
+}
+
+.menu__list{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.menu__items{
+    
+    color:#fff;
+    border-right: 1px solid #fff;
+    padding: 13px 100px;
+    font-size: 14px;
+}
+
+.menu__items:last-child{
+    border-right: none;
+}
+
+.two__buttons{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 160px;
+}
+
+.buttons,
+.collection__link{
+    line-height: 20px;
+    font-size: 16px;
+    padding: 15px 30px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background-color: #998431;
+}
+
+.two__buttons a:first-child{
+    margin-right: 60px;
+}
+
+.info{
+    background-color: #282828;
+    padding: 100px 0;
+}
+
+.info__inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 60px 190px;
+    color: #fff;
+}
+
+.info__inner-title{
+    line-height: 150%;
+    font-size: 30px;
+}
+
+.info__inner-bar{
+    flex-basis: 160px;
+    height: 1px;
+    background-color: #fff;
+    margin: 50px 0;
+}
+
+.info__inner-text{
+    margin-bottom: 50px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.new__collection{
+    background-color: #E6E3C4;
+    padding: 80px 0;
+}
+
+.new__collection-headbar{
+    background-color: #998431;
+    height: 1px;
+    max-width: 1110px;
+}
+
+.new__collection-info{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0;
+}
+
+.new__collection-info--text{
+    flex-basis: 470px;
+}
+
+.new__collection-subtitle{
+    max-width: 350px;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 30px;
+}
+
+.new__collection-title{
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 150%;
+}
+
+.new__collection-bar{
+    background-color: #282828;
+    height: 1px;
+    max-width: 160px;
+    margin: 30px 0;
+}
+
+.new__collection-descr{
+    line-height: 150%;
+    max-width: 445px;
+    height: 85px;
+    margin: 30px 0 45px;
+    line-height: 21px;
+}
+
+.new__collection-table--row{
+    border-bottom: 1px solid #282828;
+    
+}
+
+.new__collection-table--row:last-child{
+    border: none;
+}
+
+.new__collection-table--data{
+    border-right: 1px solid #282828;
+}
+
+.new__collection-table--data:last-child{
+    border: none;
+}
+
+.new__collection-table--data{
+    padding: 5px 37px 15px 30px;
+}
+
+.new__collection-table--info{
+    border-right: 1px solid #282828;
+    padding: 25px 25px 25px 19px;
+}
+
+
+.table__h{
+    padding-bottom: 5px;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'Playfair Display', serif;
+}
+
+.new__collection-descr{
+    margin: 30px 0 45px;
+    line-height: 24px;
+}
+
+.collection__images{
+    flex-basis: 540px;
+}
+
+.collection__images-1{
+    margin-bottom: 30px;
+}
+
+.collection__images-2{
+    margin-right: 26px;
+}
+
+.degustation{
+    padding-top: 90px;
+    background-color: #282828;
+    color: #fff;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.degustation__inner{
+    border: 2px solid #C4C4C4;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.degustation__bar{
+    height: 1px;
+    background-color: #fff;
+    flex-basis: 118px;
+    max-width: 118px;
+    margin: 30px 0;
+}
+
+.degustation__text{
+    font-size: 16px;
+    line-height: 150%;
+    max-width: 540px;
+    flex-basis: 540px;
+    margin: 70px 0;
+}
+
+.degustation__form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 540px;
+}
+
+.degustation__form-name,
+.degustation__form-phone,
+.degustation__form-addres{
+    outline: none;
+    font-family: 'Montserrat';
+    background-color: #282828;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #fff; 
+    color: #fff;
+    
+}
+
+.degustation__form-name,
+.degustation__form-phone{
+    max-width: 255px;
+    flex-basis: 255px;
+}
+
+.degustation__form-name{
+    margin-right: 30px;
+}
+
+.degustation__form-name,
+.degustation__form-phone{
+    margin-bottom: 40px;
+}
+
+.degustation__form-name::placeholder,
+.degustation__form-phone::placeholder,
+.degustation__form-addres::placeholder{
+    color: #fff;
+}
+
+
+.degustation__form-addres{
+    width: 100%;
+    margin-bottom: 65px;
+}
+
+.degustation__link{
+    padding: 15px 210px;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    margin-bottom: 85px;
+}
+
+.footer{
+    background-color: #998431;
+}
+
+.footer__nav{
+    padding-top: 50px;
+}
+
+.footer__list,
+.footer__list-contacts{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.footer__items{
+    font-size: 14px;
+    line-height: 150%;
+    padding: 20px 0;
+}
+
+.footer__nav-contacts{
+    padding-bottom: 50px;
+}
+
+.footer__list-contacts{
+    border-top: none;
+}
+
+.footer__items-contacts{
+    padding: 20px 60px;
+}
+
+.footer__items-contacts{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 150%;
+    border-right: 1px solid #fff;
+}
+
+.footer__items-contacts:last-child{
+    border: none;
+}
+
+.footer__social{
+    padding-right: 35px;
+}
+
+.footer__socia:last-child{
+    padding: 0;
+}
